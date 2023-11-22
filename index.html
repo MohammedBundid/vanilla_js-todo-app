@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>todo</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="title">
+            <h1>to do app</h1>
+        </div>
+        <div class="content">
+            <div class="text-bar">
+                <label for="userInput">Add item:</label>
+                <input type="text" id="userInput" placeholder="add smth">
+                <button type="button" id="addBtn">add</button>
+            </div>
+            <ul id="listContainer">
+                
+            </ul>
+            <div class="del-config">
+                <button class="btn" data-type="clear">clear</button>
+                <button class="btn" data-type="edit">edit</button>
+                <button class="btn" data-type="del">delete</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
